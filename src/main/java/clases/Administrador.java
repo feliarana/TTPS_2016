@@ -8,6 +8,10 @@ import javax.persistence.Table;
 
 public class Administrador extends Usuario{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Template configuracion;//cada  admin va a tener una configuracion
 	public Template getConfiguracion() {
 		return configuracion;

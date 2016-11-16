@@ -9,6 +9,10 @@ import javax.persistence.Table;
 @Table(name="alumno")//nombre de la tabla en la bd
 public class Alumno extends Usuario{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private List<Notificacion> intereses;
 	
 	public Alumno() {}
