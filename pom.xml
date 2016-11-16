@@ -36,9 +36,6 @@
 	      <version>5.0.3.Final</version>
 	    </dependency>
   </dependencies>
-	<properties>
-		<failOnMissingWebXml>false</failOnMissingWebXml>
-	</properties>
   <build>
     <finalName>ENTREGABLE5</finalName>
 	<pluginManagement>

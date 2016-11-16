@@ -14,7 +14,7 @@ import interfacesDAO.UsuarioDAO;
 public class UsuarioDAOjdbc implements UsuarioDAO{
 
 	public Usuario encontrarUsuario(String contrasenia,String usuario){
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("miPersistencia");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("carteleraUNLPV1");
 		EntityManager em= emf.createEntityManager();
 		Usuario user=null;
 		Query q=em.createQuery("SELECT u FROM clases.Usuario u WHERE  u.usuario=:usu AND u.contrasenia=:con");
