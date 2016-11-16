@@ -3,8 +3,8 @@ package clases;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="administrador")//nombre de la tabla en la bd
+//@Entity
+//@Table(name="administrador")//nombre de la tabla en la bd
 
 public class Administrador extends Usuario{
 

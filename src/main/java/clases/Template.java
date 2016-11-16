@@ -5,11 +5,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="template")//nombre de la tabla en la bd
+//@Entity
+//@Table(name="template")//nombre de la tabla en la bd
 public class Template {
 
-	@Id@GeneratedValue
+//	@Id@GeneratedValue
 	private int idTemplate; 
 	private int cantidadCarteleras; // cantidad expuestas en las paginas
 	public Template(){}

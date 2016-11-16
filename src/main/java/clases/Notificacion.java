@@ -5,11 +5,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="notificacion")//nombre de la tabla en la bd
+//@Entity
+//@Table(name="notificacion")//nombre de la tabla en la bd
 public class Notificacion {
 	
-	@Id@GeneratedValue
+//	@Id@GeneratedValue
 	private int idNotificacion;
 	private String tipoNotificacion;
 	private Usuario id;

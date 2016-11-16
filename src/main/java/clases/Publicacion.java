@@ -3,16 +3,19 @@ package clases;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="publicacion")//nombre de la tabla en la bd
+//@Entity
+//@Table(name="publicacion")//nombre de la tabla en la bd
 public class Publicacion {
 	
-	@Id@GeneratedValue
+	//@Id@GeneratedValue
 	private int idPublicacion;
 	private String titulo;
 	private String contenido;//info de la publicacion
+	
 	private Usuario id;
   
 	public Publicacion(){}

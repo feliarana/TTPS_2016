@@ -5,15 +5,16 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="archivo")//nombre de la tabla en la bd
+//@Entity
+//@Table(name="archivo")//nombre de la tabla en la bd
 public class Archivo {
 	
-	@Id@GeneratedValue
+//	@Id@GeneratedValue
 	private int idArchivo;
 	private String nombre;
 	private String tipo;
 	private Publicacion publicacion;
+    public Archivo(){}
     
     public int getIdArchivo() {
 		return idArchivo;
@@ -22,9 +23,6 @@ public class Archivo {
 	public void setIdArchivo(int idArchivo) {
 		this.idArchivo = idArchivo;
 	}
-
-
-    public Archivo(){}
     
 	public String getNombre() {
 		return nombre;

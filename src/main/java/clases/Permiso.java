@@ -5,11 +5,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="permiso")//nombre de la tabla en la bd
+//@Entity
+//@Table(name="permiso")//nombre de la tabla en la bd
 public class Permiso {
 	
-	@Id@GeneratedValue
+//	@Id@GeneratedValue
 	private int idPermiso; 
 	private Cartelera cartelera;
 	private Usuario usuario;

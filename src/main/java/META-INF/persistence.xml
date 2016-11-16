@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
-  http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
-  version="2.1">
-<persistence-unit name="cartelera">
-	<provider>org.hibernate.ejb.HibernatePersistence</provider>
-	<class>clases.Usuario</class>
-	 <properties>
-	  <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
-	  <property name="hibernate.connection.password" value="123456"/>
-	  <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/cartelera"/>
-	  <property name="hibernate.connection.username" value="root" />
-	  <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
-	  <property name="hibernate.hbmdialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
-	  <property name="hibernate.hbm2ddl.auto" value="update" />
-	 </properties>
-</persistence-unit>
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+	version="2.1">
+	<persistence-unit name="cartelera">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<!-- <class>clases.Administrador</class> -->
+		<!-- <class>clases.Alumno</class> -->
+		<!-- <class>clases.Archivo</class> -->
+		<!-- <class>clases.Cartelera</class> -->
+		<!-- <class>clases.Comentario</class> -->
+		<!-- <class>clases.Docente</class> -->
+		<!-- <class>clases.Notificacion</class> -->
+		<!-- <class>clases.Permiso</class> -->
+		<!-- <class>clases.Publicacion</class> -->
+		<!-- <class>clases.Publicador</class> -->
+		<!-- <class>clases.Template</class> -->
+		<!-- <class>clases.TipoCartelera</class> -->
+		<class>clases.Usuario</class>
+		<properties>
+			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+			<property name="hibernate.connection.password" value="123456" />
+			<property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/cartelera" />
+			<property name="hibernate.connection.username" value="root" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+			<property name="hibernate.hbmdialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+		</properties>
+	</persistence-unit>
 </persistence>

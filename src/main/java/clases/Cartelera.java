@@ -5,11 +5,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="cartelera")//nombre de la tabla en la bd
+//@Entity
+//@Table(name="cartelera")//nombre de la tabla en la bd
 public class Cartelera {
 	
-	@Id@GeneratedValue
+//	@Id@GeneratedValue
 	private int idCartelera;
 	private int cantPublicacionesMax;
 	private int cantPublicacionesActual;

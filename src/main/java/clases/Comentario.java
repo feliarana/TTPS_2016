@@ -5,11 +5,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="comentario")//nombre de la tabla en la bd
+//@Entity
+//@Table(name="comentario")//nombre de la tabla en la bd
 
 public class Comentario {
-	@Id@GeneratedValue
+//	@Id@GeneratedValue
 	private int idComentario;
 	private String contenido;
 	private Publicacion publicacion;

@@ -5,8 +5,8 @@ import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="alumno")//nombre de la tabla en la bd
+//@Entity
+//@Table(name="alumno")//nombre de la tabla en la bd
 public class Alumno extends Usuario{
 
 	/**

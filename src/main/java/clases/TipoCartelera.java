@@ -5,10 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="tipoCartelera")//nombre de la tabla en la bd
+//@Entity
+//@Table(name="tipoCartelera")//nombre de la tabla en la bd
 public class TipoCartelera {
-	@Id@GeneratedValue
+//	@Id@GeneratedValue
 	private int idTipoCartelera;
     private String nombreTipo;
     public TipoCartelera(){}
