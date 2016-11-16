@@ -20,13 +20,13 @@
 	<class>clases.TipoCartelera</class>
 	<class>clases.Usuario</class>
 	 <properties>
-		<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
-		<property name="hibernate.connection.username" value="root" />
-		<property name="hibernate.connection.password" value="123456"/>
-		<property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/carteleraUNLP"/>
-		<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
-		<property name="hibernate.hbmdialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
-		<property name="hibernate.hbm2ddl.auto" value="update"/>
+	  <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+	  <property name="hibernate.connection.password" value="123456"/>
+	  <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/blog"/>
+	  <property name="hibernate.connection.username" value="root" />
+	  <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
+	  <property name="hibernate.hbmdialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+	  <property name="hibernate.hbm2ddl.auto" value="update" />
 	 </properties>
 </persistence-unit>
 </persistence>
